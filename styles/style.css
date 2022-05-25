@@ -26,6 +26,12 @@ body{
     background-color: var(--beige);
 }
 
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
 .contenedor {
     width: 90%;
     max-width: 1200px;
@@ -81,4 +87,9 @@ body{
 .tecla-numero:hover{
     cursor: pointer;
     background-color: #3d3d3d;
+}
+
+.contenedor-historial{
+    background-color: var(--oscuro);
+    min-height: 52.5rem;
 }
