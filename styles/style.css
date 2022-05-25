@@ -1,0 +1,84 @@
+:root{
+    --beige: #FBFBF5;
+    --verde: #B0F0DD;
+    --grisOscuro: #484848;
+    --blanco: #FFFFFF;
+    --oscuro: #292929;
+    --negro: #000000;
+
+    --fuenteTeclas: 'Montserrat', sans-serif;
+    --fuentePantalla: 'Bungee', cursive;
+}   
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    font-family: var(--fuenteTeclas);
+    min-height: 100%;
+    background-color: var(--beige);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 26rem;
+}
+
+.cuerpo{
+    background-color: var(--verde);
+    width: 43.2rem;
+    min-height: 56.5rem;
+    border-radius: 3rem;
+}
+
+.contenedor-pantalla{
+    margin-top: 7.1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pantalla{
+    width: 36.5rem;
+    border: none;
+    background-color: var(--grisOscuro);
+    border-radius: 1rem;
+    color: var(--blanco);
+    font-family: var(--fuentePantalla);
+    font-size: 3.2rem;
+}
+
+.contenedor-botones{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+.tecla-numero {
+    border: none;
+    max-width: 6.7rem;
+    height: 6.7rem;
+    border-radius: 1rem;
+    background-color: var(--grisOscuro);
+    font-family: var(--fuenteTeclas);
+    color: var(--blanco);
+    font-size: 3.2rem;
+}
+
+.tecla-numero:hover{
+    cursor: pointer;
+    background-color: #3d3d3d;
+}
