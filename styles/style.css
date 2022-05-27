@@ -59,8 +59,10 @@ h2{
     justify-content: center;
 }
 
-.pantalla{
+.contenedor-pantalla{
     width: 36.5rem;
+    height: 7.3rem;
+    margin: 3rem auto;
     border: none;
     background-color: var(--grisOscuro);
     border-radius: 1rem;
@@ -90,7 +92,8 @@ h2{
     font-size: 3.2rem;
 }
 
-.tecla:hover{
+.tecla:hover,
+.operador:hover{
     cursor: pointer;
     background-color: #3d3d3d;
 }
